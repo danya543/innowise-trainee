@@ -1,6 +1,6 @@
 name: Run Counter Tests
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   test:
