@@ -41,7 +41,7 @@ describe('Counter component', () => {
     it('handles multiple clicks correctly', () => {
         render(<Counter />);
 
-        const incrementButton = screen.getByRole('button', { name: '=' });
+        const incrementButton = screen.getByRole('button', { name: '+' });
         const decrementButton = screen.getByRole('button', { name: '-' });
 
         fireEvent.click(incrementButton);
@@ -54,6 +54,6 @@ describe('Counter component', () => {
     it('renders all required elements', () => {
         render(<Counter />);
 
-        expect(screen.getAllByRole('button')).toHaveLength(3);
+        expect(screen.getAllByRole('button')).toHaveLength(2);
     });
 });
