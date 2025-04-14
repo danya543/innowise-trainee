@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { Main } from './features/Main/Main.tsx';
+import { Main } from './features/Main/Main';
 
 export const App = () => {
   return (

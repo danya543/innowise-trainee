@@ -9,7 +9,7 @@ export const Counter = () => {
     return (<div>
         <h3>Counter</h3>
         <p>{counter}</p>
-        <button onClick={incCounter}>+</button>
-        <button onClick={decCounter}>-</button>
+        <button onClick={incCounter} name='+'>+</button>
+        <button onClick={decCounter} name='-'>-</button>
     </div>)
 }
