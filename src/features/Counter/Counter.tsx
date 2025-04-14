@@ -5,7 +5,7 @@ import './styles.css';
 export const Counter = () => {
     const [counter, setCounter] = useState(0);
     const incCounter = () => setCounter(prev => prev += 1);
-    const decCounter = () => setCounter(prev => prev--);
+    const decCounter = () => setCounter(prev => prev -= 1);
     return (<div>
         <h3>Counter</h3>
         <p>{counter}</p>
