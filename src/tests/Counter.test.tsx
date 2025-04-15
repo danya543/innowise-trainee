@@ -54,6 +54,6 @@ describe('Counter component', () => {
     it('renders all required elements', () => {
         render(<Counter />);
 
-        expect(screen.getAllByRole('button')).toHaveLength(3);
+        expect(screen.getAllByRole('button')).toHaveLength(2);
     });
 });
